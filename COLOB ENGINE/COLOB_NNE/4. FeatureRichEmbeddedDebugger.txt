@@ -1,0 +1,27 @@
+The FeatureRichEmbeddedDebugger (FRED) is a simple logging system.
+
+To log a generic message, write:
+
+FeatureRichEmbeddedDebugger.Generic("Generic message");
+
+To log an informational message, write:
+
+FeatureRichEmbeddedDebugger.Info("Informational message");
+
+To log a warning message, write:
+
+FeatureRichEmbeddedDebugger.Warning("Warning message");
+
+To log an error message, write:
+
+FeatureRichEmbeddedDebugger.Error("Error message");
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios

@@ -1,0 +1,15 @@
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\bin\Debug\COLOB_WPF.exe.config
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\bin\Debug\COLOB_WPF.exe
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\bin\Debug\COLOB_WPF.pdb
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.csprojAssemblyReference.cache
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\App.g.cs
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF_MarkupCompile.cache
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF_MarkupCompile.lref
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\MainWindow.baml
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.g.resources
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.Properties.Resources.resources
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.csproj.GenerateResource.cache
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.csproj.CoreCompileInputs.cache
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.exe
+C:\Users\ramo6\source\repos\COLOB_WPF\COLOB_WPF\obj\Debug\COLOB_WPF.pdb

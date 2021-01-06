@@ -1,0 +1,23 @@
+A Dir2 (Direction2) is a custom data type that takes in an X value and a Y value. It can be used to define position, size, and any other data that takes in an x and a y.
+
+An example of creating a Dir2 is:
+
+Dir2 myDir = new Dir2(10, 5);
+
+Now if you were to set your theoretical player's position to that new Dir2, you would do:
+
+player.Position.X = myDir.X;
+player.Position.Y = mydir.Y;
+
+
+The rest of the information that will need to know about Dir2s are inside the Dir2 class within the main engine.
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios

@@ -1,0 +1,22 @@
+The UniversalBrain is a class that performs mathematical operations, especially operations on custom types such as Dir2s.
+
+You can add, subtract, multiply, and divide Dir2s using the UB. This can be handy when moving a GlobalObject around the screen/
+
+Here is an example of adding a Dir2:
+
+player.Position = UniversalBrain.AddDir2(player.Position, Dir2.Down());
+
+In this case, the player's position will the result of the current position moving down one unit (Dir2.Down).
+
+The rest of the information can be found inside the UniversalBrain class.
+
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios

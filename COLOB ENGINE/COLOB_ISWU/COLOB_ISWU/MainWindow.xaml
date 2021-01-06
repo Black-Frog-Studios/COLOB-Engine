@@ -1,0 +1,56 @@
+﻿<Window x:Class="COLOB_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COLOB_WPF"
+        mc:Ignorable="d"
+        Title="COLOB Engine- Interface System Working Unit" Height="450" Width="800"
+        Background="Crimson"
+        WindowState="Normal"
+        WindowStyle="SingleBorderWindow"
+        TextBlock.FontSize="24">
+
+    <Grid Margin="1">
+
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center" Height="361" Margin="0,48,0,10">
+
+            <TextBlock Name="resultTextBlock"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Text="..."
+                       TextWrapping="Wrap"
+                       FontSize="50"
+                       Foreground="Orange"
+                       Margin="0,0,0, 30"/>
+            <Button x:Name="ISWU"
+                    Content="Initialize Interface"
+                    FontSize="25"
+                    Height="140"
+                    Width="550"
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Stretch"
+                    VerticalContentAlignment="Center"
+                    Background="Orange"
+                    Foreground="White"
+                    BorderBrush="White"
+                    BorderThickness="2" Click="ISWU_Click" Margin="117,0"/>
+
+            <TextBlock Name="ownership"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Bottom"
+                       Text="The COLOB Engine is property of Black Frog Studios"
+                       TextWrapping="Wrap"
+                       FontSize="10"
+                       Foreground="Orange"
+                       Margin="5,0,0, -50"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
+

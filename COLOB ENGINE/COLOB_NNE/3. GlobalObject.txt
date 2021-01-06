@@ -1,0 +1,55 @@
+A GlobalObject is an object in the scene view. GlobalObjects are either Primitives (rectangles) or Sprites. 
+Every single GlobalObject has a Position, Scale, and Tag for identifying.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+To create a new Primitive, use this format:
+
+new Primitive(Position(in format of a Dir2), Scale(in format of a Dir2), tag(in format of a string), color);
+
+Here is an example:
+
+Primitive prim = new Primitive(new Dir2(0, 10), new Dir2(64, 64), "Ground",  Color.Red);
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+To create a new Sprite, use this format:
+new Sprite(Position(in format of a Dir2), Scale(in format of a Dir2), tag(in format of a string), directory(in format of a string));
+
+The directory is the path the application needs to take to find the file. In the ColobEngine main engine file, you will find a folder called Assets, and then a folder within that called Art. In those folders, you can create a folder, or just add in a PNG file of your sprite. 
+
+If you added a new folder and then a sprite, your directory argument would look something like this:
+
+"myFolder/PlayerSprite"
+
+NOTE: DO NOT ADD ".PNG"
+
+If you did not add in a new folder, your directory would look something like this:
+
+"PlayerSprite"
+
+Here is a full example of a new sprite:
+
+coin = new Sprite(new Dir2(i * 57, j * 65), new Dir2(100, 100), "Coin", "Environment/SampleCoin");
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+When a new GlobalObject is created, it is added to the GlobalCollection. Sprites will also be added to the GlobalSpriteCollection while Primitives will also be added to the GlobalPrimitiveCollection.
+
+To destroy a GlobalObject, call their "Destroy()" function and then set the variable holding them to null.
+
+Here is an example:
+
+player.Destroy();
+player = null;
+
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios

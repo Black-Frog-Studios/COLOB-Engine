@@ -1,0 +1,43 @@
+Welcome to the Class Oriented Low Object Based Game Engine, also known as the COLOB Game Engine! 
+
+The COLOB Engine was developed and is owned by Black Frog Studios, and was developed in an effort to secure a first-party engine for the studio. Despite this, the decision was made to release it to the public for free.
+
+The COLOB Engine supports 2D rendering, 2D textures, basic rectangle creation, simple input, and much more.
+
+The engine was intended to support only a low amount of objects per game, so it is not recommended for open world games (yet).
+
+The structure of this engine is very simple and is made up of multiple components. Among these components there are:
+
+Interface System Working Unit (ISWU)- The component that enables all of the necessary systems to run. Use the ISWU before the opening the engine if this is your first time downloading the engine.
+
+Graphically Immersive Unit (GIU)- A component that boosts the graphical fidelity of the engine.
+
+Custom Rendered Network Transfer (CRNT)- A function that enables the game window to have the highest graphics possible.
+
+Feature Rich Embedded Debugger (FRED)- A component designed to make debugging your game so much easier. FRED is a state of the art console-logging system that boasts the ability to log FOUR different types of logs.
+
+Universal Brain (UB)- The UB is a complex mathematical beast. This is a component written to perform mathematical operations on COLOB custom data types.
+
+Tagging Natives System (TNS)- The TNS is a carefully crafted global tracking system, that tracks the objects in the game scene.
+
+Backwards Compatible Edifice For Terminating Hacks (BETH)- A simple system built to destroy memory leaks caused by the engine.
+
+Native Navigation Edifice (NNE)- This documentation.
+
+
+
+To start off, you will want to read the documentation in this folder before opening up the actual engine.
+
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios
+
+
+Also this engine is a joke, it is recommended to not utilize this graphically-superb engine for a legitimate game.

@@ -1,0 +1,82 @@
+Make a new Console App and import the COLOB Engine into the project or just make a class within the existing COLOB folder.
+
+To create a new game, create a new class and have it inherit from ColobEngine. This will be the GameClass. 
+
+You should be using the Class_Oriented_Low_Object_Based_Engine.COLOB_Classes namespace.
+
+Make sure you also have:
+using System.Threading.Tasks;
+using System.Drawing;
+using System.Windows.Forms;
+
+
+You should theoretically only be needing 2 classes: Program.cs and the GameClass.
+
+Now in your game class write:
+
+public GameClass() : base(new Dir2(750, 600), "My game name") { }
+
+Obviously, instead of "GameClass" you would write the class name, instead of "750, 600" you would write the
+wanted height and width, and "My game name" would be replaced by the name of the game.
+
+In Program.cs you will need to write 1 line:
+
+            GameClass game = new GameClass();
+
+This will start up the game, and the engine will do the rest.
+
+
+The GameDemo sample project has already given a guide on how to make a simple game level in the COLOB Engine, so there isn't much to explain as information can easily be gathered from the sample project.
+
+
+Here is some brief information on getting input:
+
+To check if a key is being pressed, you will want to check the GetKeyDown function.
+
+Here is an example that checks if the key "N" is being pressed:
+
+        public override void GetKeyDown(KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.N) { FeautureRichEmbeddedDebugger.Info("N is being pressed");}
+        }
+
+
+The same can be applied to the GetKeyUp function, which checks if a key is not being pressed:
+
+        public override void GetKeyUp(KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.N) { FeautureRichEmbeddedDebugger.Info("N is NOT being pressed");}
+        }
+
+
+Here is some brief information on collisions:
+
+You can call a function "isColliding(string tag)" which will return a GlobalObject if there is a collision between the object that the function was called on and all the objects with the tag that was passed in.
+
+Here is an example of checking if the player object is colliding with any objects containing the "Ground" tag:
+
+            if (player.IsColliding("Ground") != null) 
+            {
+                  FeautureRichEmbeddedDebugger.Info("Collision");
+            }
+
+One way to make the player not be able to go through walls is to track the position of the player before they are colliding with an object (you can
+called this "lastPosition") and then set the player's position to their lastPosition when they are colliding with an object.
+
+
+
+
+From here, it is up to the user to create their game.
+
+
+
+
+
+
+
+The COLOB Engine and its components are property of Black Frog Studios.
+https://github.com/Black-Frog
+https://black-frog-studios.itch.io/
+
+This file was generated using ANFPad, a product of ANF Studios.
+https://github.com/ANF-Studios

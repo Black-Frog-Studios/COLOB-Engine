@@ -1,7 +1,7 @@
 # COLOB-Engine
 (disclaimer: this engine was origunally made as a joke and as such doesn't function very well)
 
-The COLOB Engine was developed and is owned by Black Frog Studios, and was developed in an effort to secure a first-party engine for the studio. Despite this, the decision was made to release it to the public for free.
+The COLOB Engine was developed by Rig Labs (a Black Frog Studios team) and is owned by Black Frog Studios. It was developed in an effort to secure a first-party engine for the studio. Despite this, the decision was made to release it to the public for free.
 
 The COLOB Engine supports 2D rendering, 2D textures, basic rectangle creation, simple input, and much more.
 

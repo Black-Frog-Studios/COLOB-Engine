@@ -7,7 +7,7 @@ The COLOB Engine supports 2D rendering, 2D textures, basic rectangle creation, s
 
 The engine was intended to support only a low amount of objects per game, so it is not recommended for open world games (yet).
 
-The structure of this engine is very simple and is made up of multiple components. 
+The engine is very easy to use as the structure of this engine is very simple and is made up of multiple components. 
 
 To start off, you will want to read the documentation in this folder before opening up the actual engine.
 

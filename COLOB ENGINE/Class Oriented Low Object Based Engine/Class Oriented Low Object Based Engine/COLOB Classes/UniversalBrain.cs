@@ -97,6 +97,7 @@ namespace Class_Oriented_Low_Object_Based_Engine.COLOB_Classes
             return addedDirection;
         }
 
+        //Get the distance bewteen two GlobalObjects
         public static float Distance(Dir2 a, Dir2 b)
         {
 

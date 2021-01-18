@@ -105,6 +105,7 @@ namespace Class_Oriented_Low_Object_Based_Engine.COLOB_Classes
 
             if(left) { player.Position = UniversalBrain.AddDir2(player.Position, Dir2.Left()); }
 
+
             #endregion
 
             #region Collision 

@@ -57,7 +57,6 @@ namespace Class_Oriented_Low_Object_Based_Engine.COLOB_Classes
         {
 
             FeatureRichEmbeddedDebugger.Generic("Thank you for using the COLOB Engine");
-            FeatureRichEmbeddedDebugger.Generic("Thank you for using the COLOB Engine");
 
             //Set basic game information
             this.ScreenSize = ScreenSize;
@@ -67,9 +66,10 @@ namespace Class_Oriented_Low_Object_Based_Engine.COLOB_Classes
             Window = new GraphicallyImmersiveUnit();
             Window.Size = new Size(1000, 600);
             Window.Text = this.gameTitle;
+
             Window.Paint += RenderGame; /*Window.Paint will render the game for you*/
-            Window.FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Window.FormClosed += BackwardsCompatibleEdificeForTerminatingHacks;
+            Window.FormBorderStyle = FormBorderStyle.FixedToolWindow; /* Do not allow resizing of the window to occur */
+            Window.FormClosed += BackwardsCompatibleEdificeForTerminatingHacks; /*Abort game loop when window closes*/
 
             //User input
             Window.KeyDown += Window_KeyDown;
@@ -163,7 +163,7 @@ namespace Class_Oriented_Low_Object_Based_Engine.COLOB_Classes
                     OnDraw();
                     Window.BeginInvoke((MethodInvoker)delegate { Window.Refresh(); });
                     OnUpdate();
-                    Thread.Sleep(10);
+                    Thread.Sleep(5);
                 }
                 catch
                 {
